@@ -1,0 +1,25 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.title {
+    padding-left: 1rem;
+    
+}
+
+.title span {
+    animation: none;
+}
+
+.title p {
+    display: inline-block;
+}
+
+h2 span {
+	color: white;
+}
+
+.title-dev {
+    padding-left: 1rem;
+}

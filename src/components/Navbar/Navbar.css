@@ -1,0 +1,41 @@
+a {
+	color: white;	
+	text-decoration: none;	
+}
+
+a:hover {
+	color: red;
+}
+
+.activeStyle {
+	color: #00dd00;
+	font-size: 2rem;
+}
+
+.activeStyle span {
+	color: white;
+}
+
+.site {
+	padding-top: 1rem;
+}
+
+nav.site { 
+	margin: 0 0 40px 0;
+    position: relative;
+    width: 100%;
+    /* z-index: 10; */
+    display: flex;
+	justify-content: center;
+}
+
+nav.site ul {
+	padding: 0;
+}
+
+nav.site ul li {
+	display: inline-block;
+    padding: 0 10px;
+    min-width: 250px;
+    width: auto;
+}
