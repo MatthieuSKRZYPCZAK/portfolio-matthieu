@@ -11,11 +11,10 @@ const Profil = () => {
     return (
 
         <>
-        <div className="wrapper">
-        <div className="pipboy content">
+        <div className="pipboy">
                 <div className= "pipboy_top">
                     <div className="pipboy_top-left"></div>
-                    <div className="pipboy_top-middle"><h5>Welcome</h5></div>
+                    <div className="pipboy_top-middle"><h5>Bienvenue</h5></div>
                     <div className="pipboy_top-right"></div>
                 </div>
                 <div className="flash pipboy_content">
@@ -29,17 +28,12 @@ const Profil = () => {
                 <div className="pipboy_bot">
                     <div className="pipboy_bot-left"></div>
                     <div className="pipboy_bot-middle">
-                        <a href="/CV_SKRZYPCZAK_MATTHIEU.pdf" download><h6>MY CV</h6></a>
+                        <a href="/CV_SKRZYPCZAK_MATTHIEU.pdf" download><h6 className='glitch'>MON CV</h6></a>
                     </div>
                     <div className="pipboy_bot-right"></div>
                 </div>
-            </div>    
-
-        </div>
-                    
+            </div>
         </>
-
-        
     );
 }
 

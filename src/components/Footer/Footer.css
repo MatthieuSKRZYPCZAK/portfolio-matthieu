@@ -1,0 +1,20 @@
+.imgContact {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.imgContact img {
+    padding-left: 1rem;
+    width: 100px;
+    height: 80px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.imgContact img:hover {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    position:relative;
+    z-index: 999999999;
+}

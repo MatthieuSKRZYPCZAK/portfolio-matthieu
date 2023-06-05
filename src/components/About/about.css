@@ -1,0 +1,50 @@
+.container {
+    margin: 3rem;
+    position: relative;
+}
+
+.container h2 {
+    margin-bottom: 2rem;
+
+}
+
+.container p {
+    margin-bottom: 1rem;
+    line-height: 1;
+    text-align: justify;
+}
+
+.trainPicture {
+    margin-left: 1rem;
+    width:200px;
+    height:140px;
+    float: right;
+}
+
+.computerPicture {
+    margin-right: 1rem;
+    width: 120px;
+    height:150px;
+    float: left;
+}
+
+.computerPicture:hover {
+    position: relative;
+    z-index: 99999999;
+}
+
+.trainPicture:hover {
+    position: relative;
+    z-index: 99999999;
+}
+
+.para {
+    padding-bottom: 1rem;
+}
+
+.non-selectable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

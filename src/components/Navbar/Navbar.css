@@ -1,15 +1,19 @@
+@import url(https://fonts.cdnfonts.com/css/overseer);
+
 a {
 	color: white;	
 	text-decoration: none;	
 }
 
 a:hover {
-	color: red;
+	color: #00dd00;
 }
 
 .activeStyle {
 	color: #00dd00;
+	font-family: 'Overseer', sans-serif;
 	font-size: 2rem;
+	text-transform: uppercase;
 }
 
 .activeStyle span {
@@ -24,7 +28,6 @@ nav.site {
 	margin: 0 0 40px 0;
     position: relative;
     width: 100%;
-    /* z-index: 10; */
     display: flex;
 	justify-content: center;
 }
@@ -38,4 +41,5 @@ nav.site ul li {
     padding: 0 10px;
     min-width: 250px;
     width: auto;
+	text-transform: uppercase;
 }

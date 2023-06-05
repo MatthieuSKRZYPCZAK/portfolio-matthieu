@@ -1,0 +1,95 @@
+.container {
+    margin: 3rem;
+}
+
+.contact-me {
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.contact-me div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.submitButton button {
+    background-color: #00dd00;
+    width: 140px;
+    height: 50px;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin: 1rem;
+}
+
+.container a {
+    font-size: 1.5rem;
+    color: #00dd00;
+}
+
+.submitButton button:hover {
+    position: relative;
+    z-index: 9999;
+}
+
+.my-form {
+    font-size: 1.8rem;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.my-form input {
+    background-color: #00dd00;
+    color: black;
+    width: 500px;
+    height: auto;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.field input {
+    color: #00dd00;
+    width: 500px;
+    height: auto;
+}
+
+
+.field {
+    width: 500px;
+    display: flex;
+    background-color: #00dd00;
+    height: 150px;
+    font-size: 1.5rem;
+}
+
+p {
+    text-align: center;
+}
+
+label {
+    text-align: right;
+    width: 16rem;
+    margin-bottom: 1.8rem;
+}
+
+.contact-me {
+    display: inline-block;
+}
+
+.contact-me a {
+    display: block;
+}
+
+.my-form p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.link {
+    width: 50px;
+    height: 50px;
+}
+
+

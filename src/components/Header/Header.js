@@ -38,7 +38,6 @@ function Header() {
         <>  
             <div>
                 <header className="header title non-selectable">
-                    
                     <div>
                         <h1><span>M</span>atthieu <span>S</span>KRZYPCZAK</h1>
                         <h2 className='title-dev'><span>D</span>éveloppeur <p style={{ whiteSpace: 'pre' }} ref={el} /></h2>

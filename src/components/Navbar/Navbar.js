@@ -12,27 +12,27 @@ const NavBar = () => {
                 <ul>
                     <li className="site--home">
                         <NavLink  className={({ isActive }) => isActive ? "activeStyle" : undefined } to="/">
-                            <span>H</span>ome
+                            <span>A</span>ccueil
                         </NavLink> 
                     </li>
                     <li className="site--about">
                         <NavLink  className={({ isActive }) => isActive ? "activeStyle" : undefined } to="/about">
-                        <span>A</span>bout
+                        <span>À</span> propos
                         </NavLink> 
                     </li>
                     <li className="site--skills">
                         <NavLink  className={({ isActive }) => isActive ? "activeStyle" : undefined } to="/skills">
-                        <span>S</span>kills
+                        <span>C</span>ompétences
                         </NavLink> 
                     </li>
                     <li className="site--project">
                         <NavLink  className={({ isActive }) => isActive ? "activeStyle" : undefined } to="/project">
-                        <span>P</span>roject
+                        <span>P</span>rojets
                         </NavLink> 
                     </li>
                     <li className="site--contact">
                         <NavLink  className={({ isActive }) => isActive ? "activeStyle" : undefined } to="/contact">
-                        <span>C</span>ontact Me
+                        <span>C</span>ontactez moi
                         </NavLink> 
                     </li>
                 </ul>
