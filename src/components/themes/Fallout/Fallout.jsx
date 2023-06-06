@@ -1,8 +1,6 @@
 import "./Fallout.css";
 import React from 'react';
 
-
-
 const Fallout = () => {
 
     return (
@@ -10,7 +8,6 @@ const Fallout = () => {
             <div className="overlay"></div>
             <div className="scanline"></div>
         </>
-        
     );
 }
 

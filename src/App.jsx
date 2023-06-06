@@ -10,27 +10,25 @@ import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
 import Project from "./components/Project/Project";
 import Error from "./components/404/404";
-
+import "./App.css";
 
 
 function App() {
 
-
-
     return (
         <BrowserRouter>
-                <FalloutTheme />
-                <Header />
-                <NavBar />
-                <Routes>
-                        <Route path='/' element={ <Home />} />
-                        <Route path='/about' element={ <About />} />
-                        <Route path='/skills' element={ <Skills />} />
-                        <Route path='/contact' element={ <Contact />} />
-                        <Route path='/project' element={ <Project />} />
-                        <Route path='*' element= { <Error /> } />
-                </Routes>  
-                <Footer />
+            <FalloutTheme /> 
+            <Header /> 
+            <NavBar /> 
+            <Routes>
+                <Route path='/' element={ <Home />} />
+                <Route path='/about' element={ <About />} />
+                <Route path='/skills' element={ <Skills />} />
+                <Route path='/contact' element={ <Contact />} />
+                <Route path='/project' element={ <Project />} />
+                <Route path='*' element= { <Error /> } />
+            </Routes>
+            <Footer />
         </BrowserRouter> 
     );
 }

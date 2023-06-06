@@ -40,7 +40,7 @@ const Contact = () => {
         <>  
             <div className="container">
                 <div>
-                    <p>Vous pouvez me contacter sur mes différents réseaux ou en remplissant le formulaire ci-dessous</p>
+                    <p>Vous pouvez me contacter sur mes différents réseaux ou en remplissant le formulaire ci-dessous<span className="blink"></span> </p>
                 </div>                
                 <Formik
                     initialValues={{

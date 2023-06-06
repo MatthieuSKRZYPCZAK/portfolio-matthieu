@@ -4,7 +4,6 @@ import Typed from 'typed.js';
 import React from 'react';
 
 
-
 function Header() {
 
     const el = React.useRef(null);

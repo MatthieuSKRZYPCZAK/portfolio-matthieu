@@ -30,8 +30,12 @@
 }
 
 .submitButton button:hover {
-    position: relative;
-    z-index: 9999;
+    cursor: pointer;
+}
+
+.submitButton {
+    display: flex;
+    justify-content: center;
 }
 
 .my-form {
@@ -41,7 +45,7 @@
 }
 
 .my-form input {
-    background-color: #00dd00;
+    background-color: #20a020;
     color: black;
     width: 500px;
     height: auto;
@@ -49,17 +53,18 @@
     position: relative;
 }
 
-.field input {
-    color: #00dd00;
-    width: 500px;
-    height: auto;
+.my-form input::placeholder {
+    color: #383838;
 }
 
+.label1 textarea::placeholder {
+    color: #383838;
+}
 
 .field {
     width: 500px;
     display: flex;
-    background-color: #00dd00;
+    background-color: #20a020;
     height: 150px;
     font-size: 1.5rem;
 }
