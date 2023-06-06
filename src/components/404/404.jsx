@@ -1,6 +1,6 @@
 import "./404.css";
 import React from 'react';
-import img404 from '../../assets/img/404.png';
+import errorPicture from '../../assets/img/404.png';
 
 
 const Error = () => {
@@ -9,9 +9,9 @@ const Error = () => {
 
     return (
         <>
-            <div className="page404">               
+            <div className="error404">               
                 <div className="img404">
-                    <img src={ img404 } alt="Mon profil" height={150} width={140} id="Profil" />
+                    <img src={ errorPicture } alt="Mon profil"  id="Profil" />
                 </div>
                 <div class="error"></div>
             </div>

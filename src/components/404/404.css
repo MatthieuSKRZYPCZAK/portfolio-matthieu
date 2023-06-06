@@ -1,40 +1,3 @@
-.container {
-    margin: 2rem;
-    display: flex;
-    justify-content: center;
-    font-size: 60px;
-    text-transform: uppercase;
-}
-
-.page404 {
-    margin-bottom: 2rem;
-}
-
-span {
-    animation: none;
-}
-
-.img404 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-}    
-
-.error {
-    display: flex;
-    justify-content: center;
-}    
-
-.error:after {
-    content: 'La page n\'existe pas';
-    font-size: 50px;
-    text-transform: uppercase;
-    opacity: 0;
-    color: #00dd00;
-    -webkit-animation: noise-1 1s linear infinite;
-            animation: noise-1 18s linear infinite;
-}
-
 @-webkit-keyframes noise-1 {
     0%, 20%, 40%, 60%, 70%, 90% {opacity: 0;}
     10% {opacity: .1;}
@@ -50,6 +13,39 @@ span {
     80% {opacity: .3;}
     100% {opacity: .6; left: 2px;}
 }
+
+.page404 {
+    margin-bottom: 2rem;
+}
+
+.img404 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+} 
+
+.img404 img {
+    width: 140px;
+    height: 150px;
+}  
+
+.error {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}    
+
+.error:after {
+    content: 'La page n\'existe pas';
+    font-size: 50px;
+    text-transform: uppercase;
+    opacity: 0;
+    color: #00dd00;
+    -webkit-animation: noise-1 1s linear infinite;
+            animation: noise-1 10s linear infinite;
+}
+
+
 
 
 

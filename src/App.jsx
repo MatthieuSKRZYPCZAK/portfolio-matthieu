@@ -1,15 +1,15 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import FalloutTheme from "./themes/Fallout/Fallout";
-import Header from "./Header/Header";
-import NavBar from "./Navbar/Navbar";
-import Footer from "./Footer/Footer";
-import Home from "./Home/Home";
-import About from "./About/About";
-import Skills from "./Skills/Skills";
-import Contact from "./Contact/Contact";
-import Project from "./Project/Project";
-import Error from "./404/404";
+import FalloutTheme from "./components/themes/Fallout/Fallout";
+import Header from "./components/Header/Header";
+import NavBar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
+import Contact from "./components/Contact/Contact";
+import Project from "./components/Project/Project";
+import Error from "./components/404/404";
 
 
 
