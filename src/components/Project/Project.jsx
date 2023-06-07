@@ -1,23 +1,21 @@
-import Card from "./Card/Card";
+import React from "react";
 import "./project.css";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Sliders from './Sliders/Sliders';
+
+import sliderData from '../../sliderData';
 
 
 const Project = () => {
 
-    
 
 
     return (
+    <>
+        <Sliders sliderData={sliderData} />
+    </>
 
-        <div className="container__project">
-            <div className="container__project-title">
-                <h2>Mes projets :</h2>
-            </div>
-            <div className="container__project-card">
-                <Card />
-            </div>
-            
-        </div>
     );
 }
 

@@ -1,3 +1,10 @@
+/* .container__project {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+} */
+/* 
 .container__project-title  {
     display: flex;
     justify-content: center;
@@ -11,4 +18,11 @@
 .container__project-card img:hover {
     position: relative;
     z-index: 9999999999;
-}
+} */
+
+/* .card {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    border: solid 3px #00dd00;
+} */
