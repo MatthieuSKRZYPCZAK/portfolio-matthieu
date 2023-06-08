@@ -103,6 +103,22 @@
     z-index: 9999;
 }
 
+.qualityItem:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    position: relative;
+    z-index: 9999;
+}
+
+.skillzItem:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    position: relative;
+    z-index: 9999;
+}
+
 @-webkit-keyframes flash {
 	0% {
 		opacity: .4;

@@ -23,7 +23,7 @@ const Skills = () => {
             logo: '/img/listen.webp'
         },
         {
-            name: 'Ténace',
+            name: 'Persévérant',
             logo: '/img/tena.webp'
         },
         {
@@ -180,7 +180,7 @@ const Skills = () => {
                         <div className='otherItem non-selectable'>
                             <div className="otherItem-select">
                                 <p><span><b>S</b>ystèmes <b>d</b>'<b>e</b>xploitations :</span> Windows, Linux</p>
-                                <p><span><b>O</b>utils :</span> VS Code, Office, Photoshop, Insomnia, Postman, Discord, Slack, pgAdmin  </p>
+                                <p><span><b>O</b>utils :</span> VSCode, PyCharm, IntelliJ, Office, Photoshop, Insomnia, Postman, Discord, Slack, pgAdmin  </p>
                                 <p><span><b>L</b>angue :</span> Anglais (Lu et écrit) <span className="blink"></span>  </p>
                             </div>
                         </div>
