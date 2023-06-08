@@ -119,7 +119,7 @@ const Skills = () => {
                         
                             {
                                 quality.map((qual) => (
-                                    <div className='qualityItem non-selectable' key={qual.name}>
+                                    <div className='flash qualityItem non-selectable' key={qual.name}>
                                         <div>
                                             <img  src={qual.logo} alt={ `${ qual.name }` } />
                                         </div>
@@ -139,7 +139,7 @@ const Skills = () => {
                         
                             {
                                 skillz.map((skill) => (
-                                    <div className='skillzItem non-selectable' key={skill.name}>
+                                    <div className='flash skillzItem non-selectable' key={skill.name}>
                                         <div>
                                             <img  src={skill.logo} alt={ `${ skill.name }` } />
                                         </div>
@@ -159,7 +159,7 @@ const Skills = () => {
                     <div className="container__skillzInProgress-content non-selectable">
                             {
                                 skillzInProgress.map((skillInProgress) => (
-                                    <div className='skillzItem non-selectable'>
+                                    <div className='flash skillzItem non-selectable'>
                                         <div>
                                             <img  src={skillInProgress.logo} alt={ `${ skillInProgress.name }` } key={ `${ skillInProgress.name }`}/>
                                         </div>

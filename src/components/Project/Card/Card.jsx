@@ -1,40 +1,92 @@
 import "./Card.css";
+import projectData from '../../../sliderData';
+import githubPict from '../../../assets/img/github.png'
+import linkPict from '../../../assets/img/link.webp'
+import construct from '../../../assets/img/construct.gif'
 
 const Card = () => {
 
-    const projects = [
-        {
-            title: 'J\'adopte un humain',
-            img: 'img/jadopte.png',
-            description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias nemo maxime aperiam, corporis aliquam, ab consequuntur at mollitia consectetur nam velit perspiciatis beatae laboriosam qui in et illum. Magni, assumenda?",
-            front: "",
-            back: "",
-            github: "",
-            link: "",
-            galerie: [''],
-        }
-
-    ]
 
     return (
+
         <div className="container__card">
             {
-                projects.map((project) => (
-                    <>
-                        <div key={project.title}>
-                            <h4>{project.title}</h4>
+                projectData.map(( project, index ) => (
+                        <div key={ index } className="card">
+                            <div className= "card_top">
+                                <div className="card_top-left"></div>
+                                <div className="card_top-middle"><h5>{ project.name }</h5></div>
+                                <div className="card_top-right"></div>
+                            </div>
+                            <div className="card_content">
+                                <div className="flash card_content-img">
+                                    <img src={ project.image } alt={ project.name } />
+                                </div>
+                                <div className="card_content-link">
+                                    <a href={ project.github } title="Lien vers le repos GitHub" target="_blank" rel="noopener noreferrer"><img src={ githubPict } alt="github logo" id="github" /></a>
+
+                                    { project.githubBack && (
+                                        <a href={project.githubBack} title="Lien vers le repos GitHub Back-end" target="_blank" rel="noopener noreferrer"> <img src={githubPict} alt="github logo" id="github" />
+                                        </a>
+                                    ) }
+
+                                    <a href={ project.url } title="Lien vers la page" target="_blank" rel="noopener noreferrer"><img src={ linkPict } alt="link logo" id="link" /></a>
+                                </div>
+                                <div className="card_content-tech">
+                                    <div>
+                                        <h6>Techno</h6>
+                                    </div>
+                                    <div>
+                                        { project.technoFront && (
+                                                <p>Front : <span>{ project.technoFront.join(", ") }</span>  </p>
+                                        ) }
+                                    </div>
+                                    <div>
+                                        { project.technoBack && (
+                                                <p>Back : <span>{ project.technoBack.join(", ") }</span>  </p>
+                                        ) }
+                                    </div>
+                                    <div>
+                                        { project.libraries && (
+                                            <p>Bibliothèques : <span>{ project.libraries.join(", ") }</span> </p>
+                                        ) }
+                                    </div>
+                                    <div>
+                                        { project.database && (
+                                            <p>Base de donnée : <span>{ project.database.join(", ") }</span>  </p>
+                                        ) }
+                                    </div>                                           
+                                </div>
+                                <div className="card_content-description">
+                                    <p>{ project.description }</p>
+                                </div>
+                            </div>
+                                <div className="card_bot">
+                            </div>
                         </div>
-                        <div>
-                        <img src={ project.img } alt="J'adopte un humain" height={400} width={600} />
-                        </div>
-                        <div>
-                            <p> { project.description }</p>
-                        </div>
-                    </>
-                    
                 ))
             }
+            <div key="construct" className="card">
+                <div className= "card_top">
+                    <div className="card_top-left"></div>
+                    <div className="card_top-middle"><h5>En construction..</h5></div>
+                    <div className="card_top-right"></div>
+                </div>
+                <div className="card_content">
+                    <div className="flash card_content-img">
+                        <img src={ construct } alt="En construction" />
+                    </div>
+                    <div className="card_content-tech">
+                        <div>
+                            <h6>En cours de développement<span className="blink"></span></h6>
+                        </div>
+                    </div>
+                </div>
+                <div className="card_bot"></div>              
+            </div>
         </div>
+
+
     );
 }
 

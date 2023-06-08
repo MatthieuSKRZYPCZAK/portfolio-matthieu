@@ -1,6 +1,177 @@
-.container__card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 600px;
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
 }
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.container__card {
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+}
+
+.card {
+    margin-top: 1rem;
+    width: 500px;
+    height: auto;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.card_top {
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+}
+
+.card_top-left {
+    padding-left: 5px;
+    border-top: 5px solid #00dd00;
+    border-left: 5px solid #00dd00;
+    width: 100%;
+}
+
+.card_top-middle {
+    width: 100%;
+}
+
+.card_top-right {
+    border-top: 5px solid #00dd00;
+    border-right: 5px solid #00dd00;
+    width: 100%;
+}
+
+.card_content {
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.card_content-img {
+    position: relative;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card_content-img img {
+    width: 100%;
+    height: 240px;
+    cursor: pointer;
+}
+
+.card_content-img img:hover {
+    position: relative;
+    z-index: 9999;
+}
+
+.card_content-description {
+    font-size: 1.1rem;
+    width: 90%;
+    margin: auto;
+}
+
+.card_content-description p {
+    text-align: justify;
+}
+
+.card_content-description p:hover {
+    position: relative;
+    z-index: 99999;
+}
+
+.card_content-tech {
+    margin:auto;
+    padding-bottom: 1.5rem;
+}
+
+.card_content-tech > div {
+    margin-bottom: 10px;
+}
+
+.card_content-tech p {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.card_content-tech span {
+    color: #00dd00;
+}
+
+.card_content-tech span:hover {
+    position: relative;
+    z-index: 9999;
+}
+
+.card_content-tech h6 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #00dd00;
+}
+
+.card_content-link {
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card_content-link img {
+    width: 50px;
+    height: 50px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.card_content-link img:hover {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    position:relative;
+    z-index: 999999999;
+}
+
+.card_bot {
+    width: 100%;
+    height: 1.5rem;
+    border-bottom: 5px solid #00dd00;
+    border-right: 5px solid #00dd00;
+    border-left: 5px solid #00dd00;
+}
+
+
+.card h5 {
+    text-align: center;
+    position: relative;
+    top: -50%;
+}
+
+
+.flash img:hover {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+    position: relative;
+    z-index: 9999;
+}
+
+

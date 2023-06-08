@@ -83,9 +83,13 @@
     top: 50%;
 }
 
-/* .pipboy_bot-middle h6:hover {
-    color: white;
-} */
+.pipboy_bot-middle h6:hover {
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+    position: relative;
+    z-index: 9999;
+}
 
 .flash img:hover {
 	opacity: 1;

@@ -8,7 +8,7 @@ const About = () => {
 
     return (
 
-        <article className="container non-selectable"> 
+        <article className="flash container non-selectable"> 
                 <h2>
                     Qui suis-je ?
                 </h2>

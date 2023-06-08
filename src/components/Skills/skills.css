@@ -19,12 +19,16 @@
     margin: auto;
     width: auto;
     height: 50px;
+    position: relative;
+    z-index: 1;
 }
 
 .qualityItem img {
     margin: auto;
     max-width: 140px;
     height: 120px;   
+    position: relative;
+    z-index: 1;
 }
 
 .qualityItem img:hover {
@@ -89,4 +93,29 @@
 
 .otherItem b {
     color: white;
+}
+
+.flash img:hover {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+    position: relative;
+    z-index: 9999;
+}
+
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
 }
