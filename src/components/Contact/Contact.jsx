@@ -39,12 +39,12 @@ const Contact = () => {
 
         <>  
             <div className="container">
-                <div className="contact-me">
+                {/* <div className="contact-me">
                     <p>Vous pouvez me contacter sur mes différents réseaux ou en remplissant le formulaire ci-dessous<span className="blink"></span> </p>
-                </div>
-                <div className="contact-mobile">
+                </div> */}
+                {/* <div className="contact-mobile">
                     <p>Vous pouvez me contacter sur mes différents réseaux en cliquant sur un des liens ci-dessous<span className="blink"></span> </p>
-                </div>                
+                </div>                 */}
                 <Formik
                     initialValues={{
                         nom: '',

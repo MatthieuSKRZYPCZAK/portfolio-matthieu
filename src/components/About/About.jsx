@@ -16,8 +16,7 @@ const About = () => {
                     <img className="trainPicture" src={ trainPicture } alt="Train" />
                     <p className="para">
                         Je m'appelle Matthieu et j'ai accumulé plus de 14 ans d'expérience dans le secteur ferroviaire en tant que conducteur/moniteur de trains de marchandises. 
-                        Ce métier m'a permis de développer diverses compétences.
-                        Bien que difficile et exigeant, ce métier a eu des répercussions sur ma santé au fil des années. 
+                        Ce métier difficile et exigeant m'a permis de développer diverses compétences.
                     </p>
                     <img className="computerPicture" src={ computerPicture } alt="Vaultboy computer" />  
                     <p className="para">

@@ -34,9 +34,6 @@ const Card = () => {
                                 </div>
                                 <div className="card_content-tech">
                                     <div>
-                                        <h6>Techno</h6>
-                                    </div>
-                                    <div>
                                         { project.technoFront && (
                                                 <p>Front : <span>{ project.technoFront.join(", ") }</span>  </p>
                                         ) }
