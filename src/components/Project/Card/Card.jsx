@@ -23,14 +23,14 @@ const Card = () => {
                                     <img src={ project.image } alt={ project.name } />
                                 </div>
                                 <div className="card_content-link">
-                                    <a href={ project.github } title="Lien vers le repos GitHub" target="_blank" rel="noopener noreferrer"><img src={ githubPict } alt="github logo" id="github" /></a>
+                                    <a href={ project.github } title={`Lien vers le repos GitHub ${ project.name }`} target="_blank" rel="noopener noreferrer"><img src={ githubPict } alt="github logo" id="github" /></a>
 
                                     { project.githubBack && (
-                                        <a href={project.githubBack} title="Lien vers le repos GitHub Back-end" target="_blank" rel="noopener noreferrer"> <img src={githubPict} alt="github logo" id="github" />
+                                        <a href={project.githubBack} title={`Lien vers le repos GitHub Back-end ${ project.name }`} target="_blank" rel="noopener noreferrer"> <img src={githubPict} alt="github logo" id="github" />
                                         </a>
                                     ) }
 
-                                    <a href={ project.url } title="Lien vers la page" target="_blank" rel="noopener noreferrer"><img src={ linkPict } alt="link logo" id="link" /></a>
+                                    <a href={ project.url } title={`Lien vers la page ${ project.name }`} target="_blank" rel="noopener noreferrer"><img src={ linkPict } alt="link logo" id="link" /></a>
                                 </div>
                                 <div className="card_content-tech">
                                     <div>
