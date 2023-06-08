@@ -16,17 +16,17 @@ const About = () => {
                     <img className="trainPicture" src={ trainPicture } alt="Train" />
                     <p className="para">
                         Je m'appelle Matthieu et j'ai accumulé plus de 14 ans d'expérience dans le secteur ferroviaire en tant que conducteur/moniteur de trains de marchandises. 
-                        Ce métier m'a permis de développer diverses compétences telles que la rigueur, l'adaptabilité aux situations, la ponctualité, la gestion du stress et l'autonomie.
+                        Ce métier m'a permis de développer diverses compétences.
                         Bien que difficile et exigeant, ce métier a eu des répercussions sur ma santé au fil des années. 
                     </p>
                     <img className="computerPicture" src={ computerPicture } alt="Vaultboy computer" />  
                     <p className="para">
-                    Ayant à cœur de changer de carrière, j'ai décidé de me reconvertir dans un domaine qui me passionne : l'informatique.
-                        Pour cette reconversion, j'ai choisi de me tourner vers le métier de développeur. En septembre 2022, j'ai entamé une formation pour obtenir un titre professionnel
-                        de Développeur Web et Web Mobile, fullstack Javascript avec une spécialisation Data et API. J'ai terminé cette formation en mars 2023 et obtenu mon titre professionnel.
+                    à cœur de changer de carrière, j'ai décidé de me reconvertir dans un domaine qui me passionne : l'informatique.
+                        Pour cette reconversion, j'ai choisi de me tourner vers le métier de développeur. J'ai entamé une formation pour obtenir un titre professionnel
+                        de Développeur Web et Web Mobile.
                     </p>
                     <p>
-                        Je suis extrêmement motivé prêt à poursuivre mes études afin de devenir Concepteur Développeur d'Applications.
+                        Je suis extrêmement motivé, prêt à poursuivre mes études afin de devenir Concepteur Développeur d'Applications.
                         J'ai hâte de mettre à profit mon expérence et mes compétences au service de mes futurs collaborateurs. <span className="blink"></span>
                     </p>
                 </div>
