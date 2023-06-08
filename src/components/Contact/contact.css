@@ -97,4 +97,22 @@ label {
     height: 50px;
 }
 
+.contact-mobile {
+    visibility: hidden;
+}
 
+@media (max-device-width : 1024px){
+
+    .contact-mobile {
+        visibility: visible;
+    }
+
+    .contact-me {
+        display: none;
+    }
+
+    .my-form  {
+        display: none;
+    }
+    
+}

@@ -175,3 +175,21 @@
 }
 
 
+@media (max-device-width : 1024px){
+
+    .container__card {
+        display: flex;
+        flex-direction: column;	
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card_content-img img {
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+}

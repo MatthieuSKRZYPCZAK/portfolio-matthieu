@@ -21,3 +21,10 @@
     z-index: 999999999;
 }
 
+@media (max-device-width : 1024px){
+
+    .imgContact img {
+        width: 90px;
+    }
+
+}
