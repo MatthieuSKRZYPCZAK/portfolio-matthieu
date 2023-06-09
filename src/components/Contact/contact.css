@@ -2,19 +2,6 @@
     margin: 3rem;
 }
 
-.contact-me {
-    display:flex;
-    flex-wrap: wrap;
-    
-}
-
-.contact-me div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-}
-
 .submitButton button {
     background-color: #00dd00;
     width: 140px;
@@ -79,14 +66,6 @@ label {
     margin-bottom: 1.8rem;
 }
 
-.contact-me {
-    display: inline-block;
-}
-
-.contact-me a {
-    display: block;
-}
-
 .my-form p {
     font-size: 1rem;
     text-align: center;
@@ -97,9 +76,6 @@ label {
     height: 50px;
 }
 
-.contact-mobile {
-    visibility: hidden;
-}
 
 .success {
     margin-top: 0.4rem;
@@ -109,22 +85,23 @@ label {
 
 @media (max-device-width : 1024px){
 
-    .contact-mobile {
-        visibility: visible;
-    }
-
-    .contact-me {
-        display: none;
-    }
-
     .my-form  {
-        display: none;
+        margin: auto;
+        font-size: 1.2rem;
     }
-    
-}
 
-@media (max-device-width : 1980px){
-    .my-fort {
-        
+    .field {
+        width: 100%;
+        display: flex;
+        background-color: #20a020;
+        /* height: 150px; */
+        font-size: 1.5rem;
+    }
+
+    .my-form input {
+        background-color: #20a020;
+        color: black;
+        width: 100%;
+        position: relative;
     }
 }
