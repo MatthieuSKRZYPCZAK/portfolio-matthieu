@@ -2,7 +2,7 @@ const sliderData = [
     {
         name: 'Mon Portfolio',
         image: '/img/portfolio.png',
-        description: 'Mon Portfolio sur le thème du célèbre jeux Fallout',
+        description: 'Mon Portfolio sur le thème du célèbre jeu Fallout',
         github: "https://github.com/MatthieuSKRZYPCZAK/portfolio-matthieu",
         technoFront: ['React'],
         libraries: ['Formik', 'emailjs-com'],
@@ -30,7 +30,7 @@ const sliderData = [
     },
     {
         name: 'Shifumi',
-        description: 'Projet réalisé en début de formation sur le jeux du pierre - feuille - ciseaux',
+        description: 'Projet réalisé en début de formation sur le jeu du pierre - feuille - ciseaux',
         image: '/img/shifumi.jpg',
         technoFront: ['JavaScript', 'HTML', 'CSS'],
         github: "https://github.com/MatthieuSKRZYPCZAK/Pierre-Feuille-Ciseaux",
