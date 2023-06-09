@@ -19,6 +19,10 @@ const Skills = () => {
             logo: '/img/com.webp'
         },
         {
+            name: 'Curieux',
+            logo: '/img/curieux.webp'
+        },
+        {
             name: 'à l\'écoute',
             logo: '/img/listen.webp'
         },
@@ -112,26 +116,6 @@ const Skills = () => {
         <>
             <div className="container-skills">
                 <div>
-                    <div className="container__quality-title non-selectable">
-                        <h2>Qualités :</h2>
-                    </div>
-                    <div className="container__quality-content non-selectable">
-                        
-                            {
-                                quality.map((qual) => (
-                                    <div className='flash qualityItem non-selectable' key={qual.name}>
-                                        <div>
-                                            <img  src={qual.logo} alt={ `${ qual.name }` } />
-                                        </div>
-                                        <div>
-                                            <p>{qual.name}</p>
-                                        </div>
-                                    </div>
-                                ))
-                            }
-                    </div>
-                </div>
-                <div>
                     <div className="container__skills-title non-selectable">
                         <h2>Compétences techniques :</h2>
                     </div>
@@ -171,6 +155,7 @@ const Skills = () => {
                             }
                     </div> 
                 </div>
+
                 <div>
                     <div className="container__other-title non-selectable">
                         <h2>Autres :</h2>
@@ -186,6 +171,26 @@ const Skills = () => {
                         </div>
                             
                     </div> 
+                </div>
+                <div>
+                    <div className="container__quality-title non-selectable">
+                        <h2>Qualités :</h2>
+                    </div>
+                    <div className="container__quality-content non-selectable">
+                        
+                            {
+                                quality.map((qual) => (
+                                    <div className='flash qualityItem non-selectable' key={qual.name}>
+                                        <div>
+                                            <img  src={qual.logo} alt={ `${ qual.name }` } />
+                                        </div>
+                                        <div>
+                                            <p>{qual.name}</p>
+                                        </div>
+                                    </div>
+                                ))
+                            }
+                    </div>
                 </div>
             </div>
         </>
