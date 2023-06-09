@@ -101,6 +101,12 @@ label {
     visibility: hidden;
 }
 
+.success {
+    margin-top: 0.4rem;
+    position: relative;
+    z-index: 9999999999;
+}
+
 @media (max-device-width : 1024px){
 
     .contact-mobile {

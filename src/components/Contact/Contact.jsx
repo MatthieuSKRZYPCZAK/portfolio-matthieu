@@ -73,7 +73,7 @@ const Contact = () => {
                                     <label htmlFor={`${id}-message`}>Votre Message : </label>
                                     <Field  className="field" component='textarea' id={`${id}-message`} placeholder='Ecrivez votre message ici...' name='message'/>
                                     { errors.message && touched.message && <p style={{ color: 'red'}}>{ errors.message }</p> }
-                                    { sendEmail && <p className="lastError" style={{ color: 'green'}}>E-mail envoyé avec succès</p> }
+                                    { sendEmail && <p className="success" style={{ color: 'green', fontSize: '1.5rem' }}>Mail envoyé avec succès</p> }
                                 </div>
                                 <div className="submitButton">
                                     <button type="submit">Envoie</button>

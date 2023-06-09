@@ -11,7 +11,7 @@ const sliderData = [
     {
         name: 'J\'adopte un humain',
         image: '/img/jadopte.png',
-        description: 'Projet présenté pour l\'obtention du titre professionnel Développeur Web et Web Mobile, Ce projet a pour objectif de créer une plateforme en ligne innovante afin de faciliter le processus d\'adoption des animaux de compagnie.',
+        description: 'Projet présenté pour l\'obtention du titre professionnel Développeur Web et Web Mobile, Ce projet a pour objectif de créer une plateforme en ligne innovante afin de faciliter le processus d\'adoption des animaux de compagnie. *site fictif*',
         github: "https://github.com/MatthieuSKRZYPCZAK/j-adopte-un-humain-frontend",
         githubBack: "https://github.com/MatthieuSKRZYPCZAK/j-adopte-un-humain-backend",
         technoFront: ['React', 'Axios', 'Sass'],
@@ -30,7 +30,7 @@ const sliderData = [
     },
     {
         name: 'Shifumi',
-        description: 'Projet réalisé en début de formation',
+        description: 'Projet réalisé en début de formation sur le jeux du pierre - feuille - ciseaux',
         image: '/img/shifumi.jpg',
         technoFront: ['JavaScript', 'HTML', 'CSS'],
         github: "https://github.com/MatthieuSKRZYPCZAK/Pierre-Feuille-Ciseaux",

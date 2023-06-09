@@ -9,7 +9,7 @@
     width: 150px;
     margin: 1rem;
     justify-content: space-between;
-    animation: itemScaleDown 1.5s;
+    animation: itemScaleDown 0.5s;
 }
 
 .skillzItem p {
@@ -54,7 +54,7 @@
 
 .qualityItem {
     margin: 1rem;
-    animation: itemScaleDown 1.5s;
+    animation: itemScaleDown 0.5s;
 }
 
 .container__skills-title {
@@ -109,7 +109,7 @@
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
-    animation: itemScaleUp 1.5s;
+    animation: itemScaleUp 0.5s;
     position: relative;
     z-index: 9999;
 }
@@ -118,7 +118,7 @@
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
-    animation: itemScaleUp 1.5s;
+    animation: itemScaleUp 0.5s;
     position: relative;
     z-index: 9999;
     

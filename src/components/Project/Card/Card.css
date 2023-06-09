@@ -64,6 +64,7 @@
     padding-top: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    font-size: 1.3rem;
 }
 
 .card_content-img {
@@ -94,6 +95,7 @@
 
 .card_content-description p {
     text-align: justify;
+    text-transform: uppercase;
 }
 
 .card_content-description p:hover {

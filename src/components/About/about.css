@@ -1,17 +1,24 @@
-.container {
+.container-about {
+    display: flex;
+    flex-direction: column;
     margin: 3rem;
     position: relative;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
 }
 
-.container h2 {
+h2 {
     margin-bottom: 2rem;
-
 }
 
-.container p {
+.container-about p {
     margin-bottom: 1rem;
     line-height: 1;
     text-align: justify;
+    font-size: 1.5rem;
 }
 
 .trainPicture {

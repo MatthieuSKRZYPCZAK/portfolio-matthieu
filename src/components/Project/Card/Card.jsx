@@ -75,15 +75,13 @@ const Card = () => {
                     </div>
                     <div className="card_content-tech">
                         <div>
-                            <h6>En cours de développement<span className="blink"></span></h6>
+                            <p>EN COURS DE DÉVELOPPEMENT<span className="blink"></span></p>
                         </div>
                     </div>
                 </div>
                 <div className="card_bot"></div>              
             </div>
         </div>
-
-
     );
 }
 
