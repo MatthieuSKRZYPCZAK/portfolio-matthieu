@@ -22,6 +22,7 @@ h2 {
     text-align: justify;
     display: block;
     white-space: pre-wrap;
+    animation: textAnimation 1s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 @keyframes blink {
@@ -35,3 +36,14 @@ h2 {
         animation: blink 850ms steps( 1, start ) infinite;
         content: " █";
 }
+
+@keyframes textAnimation {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px) translateY(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0) translateY(0);
+    }
+  }
