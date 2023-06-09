@@ -20,7 +20,7 @@ const About = () => {
             if (index === text.length) {
                 clearInterval(timer);
             }
-        }, 20);
+        }, 40);
 
         return () => clearInterval(timer);
     }, []);
@@ -41,7 +41,7 @@ const About = () => {
                     <img className="computerPicture" src={ computerPicture } alt="Vaultboy computer" />  
                     <p className="para">
                     à cœur de changer de carrière, j'ai décidé de me reconvertir dans un domaine qui me passionne : l'informatique.
-                        Pour cette reconversion, j'ai choisi de me tourner vers le métier de développeur. Au terme d'une formation, j'ai obtenu un titre professionnel de Développeur Web et Web mobile.
+                        Pour cette reconversion, j'ai choisi de me tourner vers le métier de développeur. Au terme d'une formation, j'ai obtenu le titre professionnel de Développeur Web et Web mobile.
                         
                     </p>
                     <p>
