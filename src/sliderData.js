@@ -4,8 +4,7 @@ const sliderData = [
         image: '/img/portfolio.png',
         description: 'Mon Portfolio sur le thème du célèbre jeu Fallout',
         github: "https://github.com/MatthieuSKRZYPCZAK/portfolio-matthieu",
-        technoFront: ['React'],
-        libraries: ['Formik', 'emailjs-com'],
+        technoFront: ['React','Formik', 'emailjs-com'],
         url: "https://matthieu-skrz.netlify.app/"
     },
     {
@@ -15,8 +14,7 @@ const sliderData = [
         github: "https://github.com/MatthieuSKRZYPCZAK/j-adopte-un-humain-frontend",
         githubBack: "https://github.com/MatthieuSKRZYPCZAK/j-adopte-un-humain-backend",
         technoFront: ['React', 'Axios', 'Sass'],
-        technoBack: ['Node.js', 'Express'],
-        libraries: ['Bcrypt', 'Joi', 'Winston', 'JsonWebToken'],
+        technoBack: ['Node.js', 'Express', 'Bcrypt', 'Joi', 'Winston', 'JsonWebToken'],
         database: ['PostgreSQL'],
         url:"https://j-adopte-un-humain.netlify.app/"
     },

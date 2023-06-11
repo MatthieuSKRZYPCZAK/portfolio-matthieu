@@ -44,11 +44,6 @@ const Card = () => {
                                         ) }
                                     </div>
                                     <div>
-                                        { project.libraries && (
-                                            <p>Bibliothèques : <span>{ project.libraries.join(", ") }</span> </p>
-                                        ) }
-                                    </div>
-                                    <div>
                                         { project.database && (
                                             <p>Base de donnée : <span>{ project.database.join(", ") }</span>  </p>
                                         ) }
