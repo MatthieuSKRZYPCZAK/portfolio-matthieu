@@ -1,8 +1,11 @@
 import "./Card.css";
+
 import projectData from '../../../sliderData';
 import githubPict from '../../../assets/img/github.png'
 import linkPict from '../../../assets/img/link.webp'
 import construct from '../../../assets/img/construct.gif'
+
+
 
 const Card = () => {
 
@@ -12,6 +15,7 @@ const Card = () => {
         <div className="container__card">
             {
                 projectData.map(( project, index ) => (
+
                         <div key={ index } className="card">
                             <div className= "card_top">
                                 <div className="card_top-left"></div>

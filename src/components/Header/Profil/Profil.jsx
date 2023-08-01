@@ -4,7 +4,6 @@ import logovault from '../../../assets/img/logoavatar.png';
 import React from "react";
 
 
-
 const Profil = () => {
 
     

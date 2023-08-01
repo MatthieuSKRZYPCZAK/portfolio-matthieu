@@ -16,7 +16,15 @@ const sliderData = [
         technoFront: ['React', 'Axios', 'Sass'],
         technoBack: ['Node.js', 'Express', 'Bcrypt', 'Joi', 'Winston', 'JsonWebToken'],
         database: ['PostgreSQL'],
-        url:"https://j-adopte-un-humain.netlify.app/"
+        url:"https://j-adopte-un-humain.netlify.app/",
+        pictures: [
+            '/img/projects/jadopte/jadopte1.png',
+            '/img/projects/jadopte/jadopte2.png',
+            '/img/projects/jadopte/jadopte3.png',
+            '/img/projects/jadopte/jadopte4.jpg',
+            '/img/projects/jadopte/jadopte5.png',
+        ]
+
     },
     {
         name: 'Pomodoro',
