@@ -27,7 +27,7 @@ const Profil = () => {
                 <div className="pipboy_bot">
                     <div className="pipboy_bot-left"></div>
                     <div className="pipboy_bot-middle">
-                        <a href="/CV_SKRZYPCZAK_MATTHIEU.pdf" download><h6>MON CV</h6></a>
+                        <h6>MON CV</h6>
                     </div>
                     <div className="pipboy_bot-right"></div>
                 </div>

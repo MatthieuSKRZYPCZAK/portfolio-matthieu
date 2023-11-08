@@ -40,7 +40,7 @@ const sliderData = [
         image: '/img/shifumi.jpg',
         technoFront: ['JavaScript', 'HTML', 'CSS'],
         github: "https://github.com/MatthieuSKRZYPCZAK/Pierre-Feuille-Ciseaux",
-        url: "https://www.matthieuskrzypczak.fr/shifumi/"
+        url: "https://matthieuskrzypczak.fr/shifumi/"
     }
 ];
 
