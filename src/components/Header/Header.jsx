@@ -16,7 +16,7 @@ function Header() {
                 ' <span>F</span>ront-<span>e</span>nd',
                 ' <span>B</span>ack-<span>e</span>nd',
                 ' <span>P</span>assionné',
-                ' <span>E</span>n <span>r</span>echerche <span>d</span>\'<span>u</span>ne <span>a</span>lternance',
+                ' <span>E</span>n <span>r</span>echerche <span>d</span>\'<span>u</span>n <span>S</span>tage',
                 ' <span>M</span>otivé',
                 ' <span>R</span>igoureux'
             ],
