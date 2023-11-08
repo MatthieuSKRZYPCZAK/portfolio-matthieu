@@ -86,9 +86,6 @@ const Skills = () => {
             name: 'Github',
             logo: '/img/github.png'
         }, 
-    ]
-
-    const skillzInProgress = [
         { 
             name: 'TypeScript',
             logo: '/img/typescript.webp'
@@ -110,6 +107,29 @@ const Skills = () => {
             logo: '/img/java.png'
         }, 
     ]
+
+    // const skillzInProgress = [
+    //     { 
+    //         name: 'TypeScript',
+    //         logo: '/img/typescript.webp'
+    //     }, 
+    //     { 
+    //         name: 'Python',
+    //         logo: '/img/python.png'
+    //     }, 
+    //     { 
+    //         name: 'Php',
+    //         logo: '/img/php.png'
+    //     }, 
+    //     { 
+    //         name: 'MySQL',
+    //         logo: '/img/mysql.png'
+    //     }, 
+    //     { 
+    //         name: 'Java',
+    //         logo: '/img/java.png'
+    //     }, 
+    // ]
 
 
     return (
@@ -135,27 +155,7 @@ const Skills = () => {
                             }
                     </div>
                 </div>
-                <div>
-                    <div className="container__skillzInProgress-title non-selectable">
-                        <h2>En cours d'apprentissage :</h2>
-                        
-                    </div>
-                    <div className="container__skillzInProgress-content non-selectable">
-                            {
-                                skillzInProgress.map((skillInProgress) => (
-                                    <div className='flash skillzItem non-selectable'>
-                                        <div>
-                                            <img  src={skillInProgress.logo} alt={ `${ skillInProgress.name }` } key={ `${ skillInProgress.name }`}/>
-                                        </div>
-                                        <div>
-                                            <p>{skillInProgress.name}</p>
-                                        </div>
-                                    </div>
-                                ))
-                            }
-                    </div> 
-                </div>
-
+                
                 <div>
                     <div className="container__other-title non-selectable">
                         <h2>Autres :</h2>
@@ -164,8 +164,11 @@ const Skills = () => {
                     <div className="container__other-content non-selectable">
                         <div className='otherItem non-selectable'>
                             <div className="otherItem-select">
+                                <p><span><b>F</b>ramework :</span> Java SE 8 et EE (Tomcat 8.5), Spring (Core, ORM, DATA, MVC, REST), Symfony, ASP.NET MVC, mobile avec android 7, Bootstrap, Xamarin, Ionic</p>
+                                <p><span><b>O</b>RM :</span> Doctrine, JPA 2 avec Hibernate 4.x, Entity Framework, Sequelize</p>
+                                <p><span><b>M</b>éthodes :</span> Modélisation des données (Oracle CDM), Méthode de développement Agile (Scrum), UML(Unified Modeling Language)</p>
                                 <p><span><b>S</b>ystèmes <b>d</b>'<b>e</b>xploitations :</span> Windows, Linux</p>
-                                <p><span><b>O</b>utils :</span> VSCode, PyCharm, IntelliJ, Office, Photoshop, Insomnia, Postman, Discord, Slack, pgAdmin <span className="blink"></span> </p>
+                                <p><span><b>O</b>utils :</span> Eclipse, Netbeans, PHP Storm, Web Storm, Android studio, VSCode, PyCharm, IntelliJ, Office365, Photoshop, Insomnia, Postman, Discord, Slack, pgAdmin <span className="blink"></span> </p>
                             </div>
                         </div>
                             
