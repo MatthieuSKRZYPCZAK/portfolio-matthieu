@@ -1,5 +1,5 @@
 import './Profil.css';
-import profilePicture from '../../../assets/img/mat.jpg';
+// import profilePicture from '../../../assets/img/mat.jpg';
 import logovault from '../../../assets/img/logoavatar.png';
 import React from "react";
 
@@ -20,9 +20,9 @@ const Profil = () => {
                     <div className="pipboy_content-left">
                         <img src={ logovault } alt="Logo Vault" height={130} width={130} />
                     </div>
-                    <div className="pipboy_content-right">
+                    {/* <div className="pipboy_content-right">
                         <img src={ profilePicture } alt="Mon profil" height={150} width={140} id="Profil" style={{ borderRadius:'10%'}} />
-                    </div>
+                    </div> */}
                 </div>
                 <div className="pipboy_bot">
                     <div className="pipboy_bot-left"></div>
