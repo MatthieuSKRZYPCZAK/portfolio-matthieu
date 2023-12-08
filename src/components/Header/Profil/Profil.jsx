@@ -18,7 +18,7 @@ const Profil = () => {
                 </div>
                 <div className="flash pipboy_content">
                     <div className="pipboy_content-left">
-                        <img src={ logovault } alt="Logo Vault" height={130} width={130} />
+                    <a href="/CV_SKRZYPCZAK_MATTHIEU.pdf" download><img src={ logovault } alt="Logo Vault" height={130} width={130} /></a>
                     </div>
                     {/* <div className="pipboy_content-right">
                         <img src={ profilePicture } alt="Mon profil" height={150} width={140} id="Profil" style={{ borderRadius:'10%'}} />
