@@ -106,6 +106,14 @@ const Skills = () => {
             name: 'Java',
             logo: '/img/java.png'
         }, 
+        { 
+            name: 'Apache Tomcat',
+            logo: '/img/tomcat.png'
+        }, 
+        { 
+            name: 'SQL Server',
+            logo: '/img/sqlserver.jpg'
+        }, 
     ]
 
     // const skillzInProgress = [
@@ -164,7 +172,7 @@ const Skills = () => {
                     <div className="container__other-content non-selectable">
                         <div className='otherItem non-selectable'>
                             <div className="otherItem-select">
-                                <p><span><b>F</b>ramework :</span> Java SE 8 et EE (Tomcat 8.5), Spring (Core, ORM, DATA, MVC, REST), Symfony, ASP.NET MVC, mobile avec android 7, Bootstrap, Xamarin, Ionic</p>
+                                <p><span><b>F</b>ramework :</span> Java SE 8 et EE (Tomcat 9), Spring (Core, ORM, DATA, MVC, REST), Symfony, ASP.NET MVC, mobile avec android 7, Bootstrap, Xamarin, Ionic</p>
                                 <p><span><b>O</b>RM :</span> Doctrine, JPA 2 avec Hibernate 4.x, Entity Framework, Sequelize</p>
                                 <p><span><b>M</b>éthodes :</span> Modélisation des données (Oracle CDM), Méthode de développement Agile (Scrum), UML(Unified Modeling Language)</p>
                                 <p><span><b>S</b>ystèmes <b>d</b>'<b>e</b>xploitations :</span> Windows, Linux</p>
