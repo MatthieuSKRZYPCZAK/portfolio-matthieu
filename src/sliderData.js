@@ -41,7 +41,16 @@ const sliderData = [
         technoFront: ['JavaScript', 'HTML', 'CSS'],
         github: "https://github.com/MatthieuSKRZYPCZAK/Pierre-Feuille-Ciseaux",
         url: "https://matthieuskrzypczak.fr/shifumi/"
-    }
+    },
+    {
+        name: 'ÉcoEnchères',
+        description: 'L\'association « Les objets sont nos amis » lance une plateforme d\'échange d\'objets de seconde main sans argent, avec un système d\'enchères en points.',
+        image: '/img/ecoencheres.png',
+        technoFront: ['Java EE', 'HTML', 'CSS', 'Bootstrap', 'Tomcat serveur'],
+        github: "https://github.com/MatthieuSKRZYPCZAK/EcoEncheres"
+        
+    },
+
 ];
 
 export default sliderData;
