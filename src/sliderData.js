@@ -46,7 +46,8 @@ const sliderData = [
         name: 'ÉcoEnchères',
         description: 'L\'association « Les objets sont nos amis » lance une plateforme d\'échange d\'objets de seconde main sans argent, avec un système d\'enchères en points.',
         image: '/img/ecoencheres.png',
-        technoFront: ['Java EE', 'HTML', 'CSS', 'Bootstrap', 'Tomcat serveur'],
+        technoFront: ['HTML', 'CSS', 'Bootstrap'],
+        technoBack: ['Java EE', 'JSP', 'Tomcat serveur'],
         github: "https://github.com/MatthieuSKRZYPCZAK/EcoEncheres"
         
     },
