@@ -1,12 +1,5 @@
 const sliderData = [
-    {
-        name: 'Mon Portfolio',
-        image: '/img/portfolio.png',
-        description: 'Mon Portfolio sur le thème du célèbre jeu Fallout',
-        github: "https://github.com/MatthieuSKRZYPCZAK/portfolio-matthieu",
-        technoFront: ['React','Formik', 'emailjs-com'],
-        url: "https://matthieu-skrz.netlify.app/"
-    },
+    
     {
         name: 'J\'adopte un humain',
         image: '/img/jadopte.png',
@@ -27,6 +20,32 @@ const sliderData = [
 
     },
     {
+        name: 'Sortir',
+        description: 'Une plateforme de réseau social destinée à la communauté de l\'ENI École Informatique, facilitant l\'organisation et la participation à des activités de détente hors du temps de formation.',
+        image: '/img/sortir.png',
+        technoFront: ['Twig','HTML', 'CSS', 'Bootstrap'],
+        technoBack: ['Symfony', 'Mysql', 'Wampserver'],
+        github: "https://github.com/MatthieuSKRZYPCZAK/Sortir"
+        
+    },    
+    {
+        name: 'ÉcoEnchères',
+        description: 'L\'association « Les objets sont nos amis » lance une plateforme d\'échange d\'objets de seconde main sans argent, avec un système d\'enchères en points.',
+        image: '/img/ecoencheres.png',
+        technoFront: ['HTML', 'CSS', 'Bootstrap'],
+        technoBack: ['Java EE', 'JSP', 'Tomcat serveur'],
+        github: "https://github.com/MatthieuSKRZYPCZAK/EcoEncheres"
+        
+    },
+    {
+        name: 'Mon Portfolio',
+        image: '/img/portfolio.png',
+        description: 'Mon Portfolio sur le thème du célèbre jeu Fallout',
+        github: "https://github.com/MatthieuSKRZYPCZAK/portfolio-matthieu",
+        technoFront: ['React','Formik', 'emailjs-com'],
+        url: "https://matthieu-skrz.netlify.app/"
+    },
+    {
         name: 'Pomodoro',
         description: 'Application Pomodoro, aide à la gestion du temps',
         image: '/img/pomodoro.png',
@@ -42,15 +61,7 @@ const sliderData = [
         github: "https://github.com/MatthieuSKRZYPCZAK/Pierre-Feuille-Ciseaux",
         url: "https://matthieuskrzypczak.fr/shifumi/"
     },
-    {
-        name: 'ÉcoEnchères',
-        description: 'L\'association « Les objets sont nos amis » lance une plateforme d\'échange d\'objets de seconde main sans argent, avec un système d\'enchères en points.',
-        image: '/img/ecoencheres.png',
-        technoFront: ['HTML', 'CSS', 'Bootstrap'],
-        technoBack: ['Java EE', 'JSP', 'Tomcat serveur'],
-        github: "https://github.com/MatthieuSKRZYPCZAK/EcoEncheres"
-        
-    },
+    
 
 ];
 
