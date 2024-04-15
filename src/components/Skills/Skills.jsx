@@ -107,8 +107,8 @@ const Skills = () => {
             logo: '/img/java.png'
         }, 
         { 
-            name: 'Apache Tomcat',
-            logo: '/img/tomcat.png'
+            name: 'Kotlin',
+            logo: '/img/kotlin.jpg'
         }, 
         { 
             name: 'SQL Server',
