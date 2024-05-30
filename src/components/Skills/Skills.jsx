@@ -51,6 +51,18 @@ const Skills = () => {
 
     const skillz = [ 
         { 
+            name: 'Spring Boot',
+            logo: '/img/spring.png'
+        },
+        { 
+            name: 'Java',
+            logo: '/img/java.png'
+        }, 
+        { 
+            name: 'Kotlin',
+            logo: '/img/kotlin.jpg'
+        }, 
+        { 
             name: 'HTML',
             logo: '/img/html.png'
         },
@@ -101,14 +113,6 @@ const Skills = () => {
         { 
             name: 'MySQL',
             logo: '/img/mysql.png'
-        }, 
-        { 
-            name: 'Java',
-            logo: '/img/java.png'
-        }, 
-        { 
-            name: 'Kotlin',
-            logo: '/img/kotlin.jpg'
         }, 
         { 
             name: 'SQL Server',
@@ -172,11 +176,13 @@ const Skills = () => {
                     <div className="container__other-content non-selectable">
                         <div className='otherItem non-selectable'>
                             <div className="otherItem-select">
-                                <p><span><b>F</b>ramework :</span> Java SE 8 et EE (Tomcat 9), Spring (Core, ORM, DATA, MVC, REST), Symfony, ASP.NET MVC, mobile avec android 7, Bootstrap, Xamarin, Ionic</p>
+                                <p><span><b>F</b>ramework :</span> Java SE 8 et EE (Tomcat 9), Spring (Core, ORM, DATA, MVC, REST), Symfony, ASP.NET MVC, mobile avec android 7, Bootstrap, Xamarin, Ionic et flutter</p>
                                 <p><span><b>O</b>RM :</span> Doctrine, JPA 2 avec Hibernate 4.x, Entity Framework, Sequelize</p>
                                 <p><span><b>M</b>éthodes :</span> Modélisation des données (Oracle CDM), Méthode de développement Agile (Scrum), UML(Unified Modeling Language)</p>
-                                <p><span><b>S</b>ystèmes <b>d</b>'<b>e</b>xploitations :</span> Windows, Linux</p>
-                                <p><span><b>O</b>utils :</span> Eclipse, Netbeans, PHP Storm, Web Storm, Android studio, VSCode, PyCharm, IntelliJ, Office365, Photoshop, Insomnia, Postman, Discord, Slack, pgAdmin <span className="blink"></span> </p>
+                                <p><span><b>S</b>ystèmes <b>d</b>'<b>e</b>xploitations :</span> Windows, Linux, je fais également de l'administration 
+                                système, comprenant l'installation et la configuration de systèmes sur des serveurs VPS sous linux, l'administration Apache,
+                                et la containerisation avec Docker.</p>
+                                <p><span><b>O</b>utils :</span> IntelliJ, Eclipse, Netbeans, PHP Storm, Web Storm, Android studio, VSCode, PyCharm, Office365, Photoshop, Insomnia, Postman, Discord, Slack, pgAdmin <span className="blink"></span> </p>
                             </div>
                         </div>
                             

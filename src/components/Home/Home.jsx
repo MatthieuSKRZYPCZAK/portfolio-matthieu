@@ -6,7 +6,7 @@ const Home = () => {
     const [message, setMessage] = useState('');
 
     useEffect(() => {
-        const text = `Concepteur développeur d'applications. Je suis à la recherche d'une opportunité de stage de fin de formation (Du 01 juillet 2024 au 23 août 2024). Je suis ouvert à l'apprentissage de nouveaux langages et technologies pour enrichir mes compétences. Je vous invite à explorer mon site où vous pourrez en savoir plus sur mon parcours, mes compétences et les projets que j'ai réalisés. N'hésitez pas à me contacter et à me connecter à votre réseau professionnel.`;
+        const text = `Concepteur développeur d'applications, passionné par le développement et l'informatique en général. Je travaille principalement avec des technologies telles que Java Spring Boot, Javascript(React), HTML/CSS, ainsi que d'autres langages comme PHP, C#. N'hésitez pas à me contacter et à m'ajouter à votre réseau professionnel.`;
         let currentText = '';
         let index = 0;
 
