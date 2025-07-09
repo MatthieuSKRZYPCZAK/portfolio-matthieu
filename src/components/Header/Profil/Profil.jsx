@@ -18,7 +18,8 @@ const Profil = () => {
                 </div>
                 <div className="flash pipboy_content">
                     <div className="pipboy_content-left">
-                    <a href="/CV_SKRZYPCZAK_MATTHIEU.pdf" download><img src={ logovault } alt="Logo Vault" height={130} width={130} /></a>
+                    {/*<a href="/CV_SKRZYPCZAK_MATTHIEU.pdf" download><img src={ logovault } alt="Logo Vault" height={130} width={130} /></a> */}
+                    <img src={ logovault } alt="Logo Vault" height={130} width={130} />
                     </div>
                     {/* <div className="pipboy_content-right">
                         <img src={ profilePicture } alt="Mon profil" height={150} width={140} id="Profil" style={{ borderRadius:'10%'}} />
@@ -27,7 +28,8 @@ const Profil = () => {
                 <div className="pipboy_bot">
                     <div className="pipboy_bot-left"></div>
                     <div className="pipboy_bot-middle">
-                    <a href="/CV_SKRZYPCZAK_MATTHIEU.pdf" download><h6>MON CV</h6></a>
+                    {/* <a href="/CV_SKRZYPCZAK_MATTHIEU.pdf" download><h6>MON CV</h6></a> */}
+                    <h6>Hi ! </h6>
                     </div>
                     <div className="pipboy_bot-right"></div>
                 </div>

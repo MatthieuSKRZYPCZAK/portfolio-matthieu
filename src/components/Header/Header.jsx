@@ -14,11 +14,7 @@ function Header() {
         const options = {
             strings: [
                 ' <span>F</span>ront-<span>e</span>nd',
-                ' <span>B</span>ack-<span>e</span>nd',
-                ' <span>P</span>assionné',
-                ' <span>E</span>n <span>r</span>echerche <span>d</span>\'<span>u</span>n <span>S</span>tage',
-                ' <span>M</span>otivé',
-                ' <span>R</span>igoureux'
+                ' <span>B</span>ack-<span>e</span>nd'
             ],
             typeSpeed: 120,
             backSpeed: 50,
